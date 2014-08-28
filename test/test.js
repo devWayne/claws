@@ -1,12 +1,11 @@
-var app = require('./server');
+var app = require('../app/app');
 var request = require('supertest').agent(app.listen());
 
-describe('/ajax', function(){
-  it('/ajax test', function(done){
+describe('/testcase', function(){
+  it('/test get test', function(done){
     request
-    .post('/ajax')
-    .send({ name: 'Manny', species: 'cat' })
+    .get('/test/id123')
     .expect(200)
-    .expect('{"name":"Manny","species":"cat"}', done);
+    .expect('{"id":"id123"}', done);
   });
 });
