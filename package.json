@@ -1,15 +1,20 @@
 {
-  "name": "Ajaxdebug",
+  "name": "ajaxdebug",
   "description": "debugtool",
-  "version": "0.0.1",
-  "repository": "https://github.com/devWayne/Ajaxdebug.git",
+  "version": "0.0.8",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/devWayne/Ajaxdebug.git"
+  },
+  "bin": "lib/index.js",
   "dependencies": {
     "koa": "^0.8.0",
     "koa-logger": "^1.2.1",
     "koa-router": "^1.1.4",
     "koa-session": "^2.0.0",
     "koa-static": "^1.4.5",
-     "co-body": "0.0.2"
+    "co-body": "0.0.2",
+    "commander": "2.3.0"
   },
   "devDependencies": {
     "co": "*",
@@ -23,5 +28,14 @@
   "engines": {
     "node": ">= 11.3"
   },
-  "license": "MIT"
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/devWayne/Ajaxdebug/issues"
+  },
+  "homepage": "https://github.com/devWayne/Ajaxdebug",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "author": ""
 }
