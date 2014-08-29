@@ -4,8 +4,8 @@ var request = require('supertest').agent(app.listen());
 describe('/testcase', function(){
   it('/test get test', function(done){
     request
-    .get('/test/id123')
+    .get('/test/wayne')
     .expect(200)
-    .expect('{"id":"id123"}', done);
+    .expect('{"name":"wayne"}',done);
   });
 });

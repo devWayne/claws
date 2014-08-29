@@ -10,11 +10,11 @@ app.use(bodyParser.urlencoded());
 
 var router = express.Router();
 
-router.get('/test/:id', function(req, res, next) {
+router.get('/test/:name', function(req, res, next) {
   console.log('%s %s %s', req.method, req.url, req.path);
  // console.log(req.body);
   console.log(req.params);
-  res.body=req.params;
+  res.send(200, { name: 'wayne' });
 
 });
 
