@@ -1,0 +1,1 @@
+https://travis-ci.org/devWayne/Ajaxdebug.svg?branch=master
