@@ -14,7 +14,7 @@ app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 
 ajaxRouter(router,app);
-testRuoter(router,app);
+testRouter(router,app);
 
 router.get('/', function(req, res){
   res.render('home', {
