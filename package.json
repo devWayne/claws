@@ -1,15 +1,17 @@
 {
-  "name": "ajaxdebug",
+  "name": "httptool",
   "description": "debugtool",
   "version": "0.0.12",
+  "author": "VI Wayne",
   "repository": {
-      "url": "https://github.com/devWayne/Ajaxdebug.git"
+      "url": "https://github.com/devWayne/httptool.git"
   },
   "bin": "lib/index.js",
   "dependencies": {
     "express":"4.8.6",
     "commander": "2.3.0",
-    "body-parser": "~1.0.0"
+    "body-parser": "~1.0.0",
+    "jade":"1.5.0"
   },
   "devDependencies": {
     "co": "*",
@@ -25,11 +27,10 @@
   },
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/devWayne/Ajaxdebug/issues"
+    "url": "https://github.com/devWayne/httptool/issues"
   },
-  "homepage": "https://github.com/devWayne/Ajaxdebug",
+  "homepage": "https://github.com/devWayne/httptool",
   "directories": {
     "test": "test"
-  },
-  "author": "VI Wayne"
+  }
 }

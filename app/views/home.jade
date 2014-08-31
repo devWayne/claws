@@ -1,0 +1,16 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    script(src='/js/jquery.js')
+    script(src='/js/main.js')
+  body
+    h1 HTTP TOOL
+    p #{title}
+    div#params
+        span name
+        input#postParamName
+        span value
+        input#postParamValue 
+        button#start START
+        
