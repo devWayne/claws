@@ -6,11 +6,13 @@ html(lang="en")
     script(src='/js/main.js')
   body
     h1 HTTP TOOL
-    p #{title}
-    div#params
+    span #{title}
+    button ADD
+    div#params 
         span name
         input#postParamName
         span value
         input#postParamValue 
-        button#start START
+    div#submit  
+    button#start START
         

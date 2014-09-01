@@ -1,7 +1,7 @@
 {
   "name": "httptool",
   "description": "debugtool",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "author": "VI Wayne",
   "repository": {
       "url": "https://github.com/devWayne/httptool.git"
