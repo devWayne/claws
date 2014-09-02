@@ -1,7 +1,7 @@
 {
   "name": "httptool",
   "description": "debugtool",
-  "version": "0.0.13",
+  "version": "0.0.15",
   "author": "VI Wayne",
   "repository": {
       "url": "https://github.com/devWayne/httptool.git"
@@ -25,7 +25,7 @@
   "engines": {
     "node": ">= 11.3"
   },
-  "license": "BSD-2-Clause",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/devWayne/httptool/issues"
   },
