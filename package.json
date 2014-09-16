@@ -1,7 +1,7 @@
 {
   "name": "standby",
   "description": "Http Debug Tool",
-  "version": "0.0.17",
+  "version": "0.0.1",
   "author": "VI Wayne",
   "repository": {
       "url": "https://github.com/devWayne/standby.git"

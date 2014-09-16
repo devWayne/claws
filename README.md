@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/devWayne/httptool.svg?branch=master)](https://travis-ci.org/devWayne/httptool)
 
-#HTTPTOOL
+#StandBy
 
 ##Usage
 
-npm install -g httptool
+npm install -g standby
 
-httptool start
+standby start
