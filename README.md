@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/devWayne/httptool.svg?branch=master)](https://travis-ci.org/devWayne/httptool)
+[![Build Status](https://travis-ci.org/devWayne/claws.svg?branch=master)](https://travis-ci.org/devWayne/claws)
 
 #Claws
 
