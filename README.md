@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.org/devWayne/httptool.svg?branch=master)](https://travis-ci.org/devWayne/httptool)
 
-#StandBy
+#Claws
 
 ##Usage
 
-npm install -g standby
+npm install -g claws
 
-standby start
+claws start
