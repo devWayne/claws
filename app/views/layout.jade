@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  head
+    title= CLAWS
+    link(rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css")
+    link(rel="stylesheet" href="/css/style.css")
+    script(src='/js/jquery.js')
+  body
+    div.page-header.head
+      h1 Claws
+        small Http Tool
+    div.col-md-3
+        div.list-group
+           a.list-group-item.active 代理-proxy
+           a.list-group-item 模拟请求接受-mock
+           a.list-group-item 模拟请求发送-mock
+           a.list-group-item 网络环境模拟
+    div.col-md-9.main
+           block content

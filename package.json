@@ -11,7 +11,9 @@
     "express":"4.8.6",
     "commander": "2.3.0",
     "body-parser": "~1.0.0",
-    "jade":"1.5.0"
+    "jade":"1.5.0",
+    "hps":"0.4.1",
+    "hmks":"0.1.0"
   },
   "devDependencies": {
     "co": "*",

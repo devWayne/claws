@@ -1,0 +1,17 @@
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+.head{
+	text-align: center;
+}
+.main .from-to{
+	width: 10%;
+	margin: 0 20px;
+}
+.main .url-from{
+	width: 40%;
+}
+.main .url-to{
+	width: 40%;
+}

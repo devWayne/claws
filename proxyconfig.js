@@ -1,0 +1,1 @@
+exports.map=[['http://s1.51ping.com/b/js/app/tuangou/deliverlist.min.6a5beed310046675fa2421ec997b2ba8.js','/Users/wayne/code/dianping/bc-tuangou-static/js/deliverlist.js'],[]]

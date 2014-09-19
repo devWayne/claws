@@ -1,11 +1,10 @@
 var express = require('express'),
   bodyParser = require('body-parser');
-  var exec = require('child_process').exec;
+var exec = require('child_process').exec;
 var spawn = require('child_process').spawn;
 
 var config = require('../config'),
-  ajaxRouter = require('./route/ajax'),
-  testRouter = require('./route/test');
+  route = require('./router');
 
 var app = module.exports = express();
 var router = express.Router();
@@ -31,18 +30,15 @@ app.use(bodyParser.urlencoded());
 app.set('views', __dirname + '/views');
 app.set('view engine', 'jade');
 
-ajaxRouter(router, app);
-testRouter(router, app);
+route(router, app);
 
-router.get('/', function(req, res) {
-  res.render('home', {
-    title: 'Params'
-  });
+router.get('/proxy', function(req, res) {
+  res.render('proxy');
 });
 
 app.use(router);
 
 app.listen(config.port, function() {
   console.log('server started');
-  openURL(" http://" + config.host + ':' + config.port);
+  openURL(" http://" + config.host + ':' + config.port + '/proxy');
 });
