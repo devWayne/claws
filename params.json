@@ -1,0 +1,1 @@
+{"name":"Claws","tagline":"Http Debug Tool","body":"[![Build Status](https://travis-ci.org/devWayne/claws.svg?branch=master)](https://travis-ci.org/devWayne/claws)\r\n\r\n#Claws\r\n\r\n##Usage\r\n\r\nnpm install -g claws\r\n\r\nclaws start\r\n","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
